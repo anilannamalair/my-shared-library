@@ -1,3 +1,11 @@
-// install_dependencies.groovy
+// installDependencies.groovy
 println "Installing dependencies..."
-sh 'mvn install'  // Assuming you're using Maven, replace this with your dependency installation logic.
+
+def installMavenDependencies() {
+    println "Running Maven install..."
+    def process = "mvn clean install".execute()
+    process.waitFor()
+    println "Dependencies installed."
+}
+
+installMavenDependencies()
