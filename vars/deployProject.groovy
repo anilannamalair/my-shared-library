@@ -1,3 +1,3 @@
 def call() {
-    echo "Deploying the Java project...
+    echo "Deploying the Java project..."
 }
