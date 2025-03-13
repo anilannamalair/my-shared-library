@@ -1,3 +1,3 @@
 def call() {
-    echo "Installing dependencies with Maven...
+    echo "Installing dependencies with Maven..."
 }
