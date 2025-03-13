@@ -1,4 +1,4 @@
 def call() {
-    echo "Running tests..."
-    sh 'npm test'  // Example for a Node.js project
+    echo "Running tests with Maven..."
+    sh 'mvn test'  // Run tests using Maven
 }
