@@ -1,3 +1,3 @@
 def call() {
-    echo "Building the Java project with Maven...
+    echo "Building the Java project with Maven..."
 }
