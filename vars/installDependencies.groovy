@@ -1,4 +1,4 @@
 def call() {
-    echo "Installing dependencies..."
-    sh 'npm install'  // Example for a Node.js project
+    echo "Installing dependencies with Maven..."
+    sh 'mvn clean install'  // Install dependencies using Maven
 }
