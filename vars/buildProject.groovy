@@ -1,4 +1,4 @@
 def call() {
-    echo "Installing dependencies with Maven..."
-    sh 'mvn clean install'  // Install dependencies using Maven
+    echo "Building the Java project with Maven..."
+    sh 'mvn clean package'  // Build the project with Maven
 }
