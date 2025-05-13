@@ -1,4 +1,3 @@
-// runTests.groovy
 println "Running tests..."
 
 def runTestsWithMaven() {
