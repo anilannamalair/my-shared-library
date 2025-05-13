@@ -1,4 +1,3 @@
-// buildProject.groovy
 println "Building project..."
 
 def buildProjectWithMaven() {
