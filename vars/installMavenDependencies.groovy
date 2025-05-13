@@ -1,4 +1,3 @@
-// installDependencies.groovy
 println "Installing dependencies..."
 
 def installMavenDependencies() {
