@@ -1,4 +1,3 @@
-// deployProject.groovy
 println "Deploying project..."
 
 def deployToServer() {
